@@ -3,8 +3,8 @@
 
 DEVICE = atmega808
 F_CPU = 16000000 #20MHz
-OUT = "ATMEGA808_blink"
-SRC = 808led.c
+OUT = "ATMEGA808_blink"   # Change the output name of file if needed.
+SRC = 808led.c            # Give the source file of your own.
 COM = COM5
 AVR_BASE_PATH = D:\avr-gcc-8.5.0-1-x64-windows
 
